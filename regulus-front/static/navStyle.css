@@ -1,0 +1,167 @@
+
+.ulTransition-move, /* apply transition to moving elements */
+.ulTransition-enter-active,
+.ulTransition-leave-active {
+  transition: all 0.5s ease;
+}
+
+.ulTransition-enter-from,
+.ulTransition-leave-to {
+  opacity: 0;
+  transform: translateX(-100px);
+}
+
+/* ensure leaving items are taken out of layout flow so that moving
+   animations can be calculated correctly. */
+.ulTransition-leave-active {
+  position: absolute;
+}
+
+.dropdown-transition-enter-from {
+
+    transform-origin: top left;
+    opacity: 0%;
+    position: absolute;
+    transform: scale(1, 0.5);
+}
+
+.dropdown-transition-enter-active {
+    transition: all 1s ease;
+}
+
+.dropdown-transition-leave-active {
+    transition: all 1s ease;
+}
+
+.dropdown-transition-leave-to {
+    transform-origin: top left;
+    transform: scale(1, 0);
+    opacity: 0%;
+}
+
+
+.menuHover {
+    position: absolute;
+    left: 85px;
+    top: 20px;
+}
+
+.menuHover-enter-from,
+.menuHover-leave-to {
+    opacity: 0;
+    left: 120px;
+    position: absolute;
+    top: 20px;
+}
+
+.menuHover-enter-active {
+    transition: all 1s ease;
+}
+
+
+.menuHover-leave-active {
+    transition: all 2s ease;
+    transition-delay: 1s;
+}
+
+.ul-container {
+    
+    letter-spacing: 0.5rem;
+    color: #FFF;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.bg-container {
+    padding: 0.3rem
+}
+
+header {
+    background-color: #666;
+    opacity: 80%;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 0.1rem;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+}
+
+.image-contain {
+    position: relative;
+    /* left: 48%; */
+    top: -18px;
+    /* text-align: center; */
+
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin-left: 10px;
+    margin-right: 17px;
+}
+
+.image-contain2 {
+    position: relative;
+    /* left: 48%; */
+    top: 4px;
+    /* text-align: center; */
+
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    margin-left: 10px;
+    margin-right: 17px;
+}
+
+#dropdown {
+    background: #444;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    transition: 250ms;
+}
+
+#dropdown.dropdownHovering{
+    background: #888;
+}
+
+.dropdownHover-enter-from,
+.dropdownHover-leave-to{
+    opacity:0;
+    transition: all 0.5s ease;
+}
+
+.dropdownHover-enter-active,
+.dropdownHover-leave-active {
+  transition: all 0.5s ease;
+}
+
+.dropdown-content {
+    border-bottom-right-radius: 1rem;
+    transform-origin: top left;
+    font-size: 15px;
+    display: block;
+    top: 59.5px;
+    position: absolute;
+
+    color: white;
+    background-color: #AAA;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+    padding: 1rem 40px;
+    z-index: 1;
+}
+
+
+
+body {
+    background-color: #444;
+}
