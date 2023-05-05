@@ -1,6 +1,0 @@
-<template>
-  
-  
-  <Nav/>
-
-</template>
