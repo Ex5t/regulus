@@ -3,54 +3,13 @@
   </head>
 
   <body >
-    <div>  <Nav/></div>
-
-    <p><br></p>
-    <p><br></p>
-    <h1>NASLOV</h1>
-    <p><br></p>
-    <p><br></p>
-    <h1>NASLOV</h1>
-    <p><br></p>
-    <p><br></p>
-    <h1>NASLOV</h1>
-    <p><br></p>
-    <p><br></p>
-    <h1>NASLOV</h1>
-    <p><br></p>
-    <p><br></p>
-    <h1>NASLOV</h1>
-    <p><br></p>
-    <p><br></p>
-    <h1>NASLOV</h1>
-    <p><br></p>
-    <p><br></p>
-    <h1>NASLOV</h1>
-    <p><br></p>
-    <p><br></p>
-    <h1>NASLOV</h1>
-    <p><br></p>
-    <p><br></p>
-    <h1>NASLOV</h1>
-    <p><br></p>
-    <p><br></p>
-    <h1>NASLOV</h1>
-    <p><br></p>
-    <p><br></p>
-    <h1>NASLOV</h1>
-    <p><br></p>
-    <p><br></p>
-    <h1>NASLOV</h1>
-    <p><br></p>
-    <p><br></p>
-    <h1>NASLOV</h1>
-    <p><br></p>
-    <p><br></p>
-    <h1>NASLOV</h1>
+    <Nav/>
+    <div>
+      <PopUpManager/>
+    </div>
     
 
   </body>
-  <!-- <Nav/> -->
   
   
   

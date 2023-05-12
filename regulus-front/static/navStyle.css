@@ -60,8 +60,7 @@
 
 
 .menuHover-leave-active {
-    transition: all 2s ease;
-    transition-delay: 1s;
+    transition: all 1s ease;
 }
 
 .ul-container {
@@ -71,6 +70,7 @@
     text-align: center;
     display: flex;
     justify-content: center;
+    user-select: none
     
 }
 
@@ -79,6 +79,7 @@
 }
 
 header {
+    z-index: 100;
     background-color: #666;
     opacity: 80%;
     height: 50px;
@@ -104,6 +105,7 @@ header {
     object-position: 50% 50%;
     margin-left: 10px;
     margin-right: 17px;
+    user-select: none
 }
 
 .image-contain2 {
@@ -118,6 +120,7 @@ header {
     object-position: 50% 50%;
     margin-left: 10px;
     margin-right: 17px;
+    user-select: none
 }
 
 #dropdown {
@@ -160,8 +163,3 @@ header {
     z-index: 1;
 }
 
-
-
-body {
-    background-color: #444;
-}
